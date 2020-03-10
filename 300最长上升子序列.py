@@ -9,6 +9,11 @@
 输出: 4
 解释: 最长的上升子序列是 [2,3,7,101]，它的长度是 4。
 """
+
+"""
+时间复杂度O(n^2)
+"""
+
 import numpy
 class Solution(object):
     def lengthOfLIS(self, nums):

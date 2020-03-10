@@ -19,21 +19,22 @@ class Solution(object):
         result = []
         i = 1
         j = 1
-        while(i<=j and j<target):
-            sum = (i+j)*(j-i+1)/2
-            if(sum <target):
-                j+=1
-            elif(sum>target):
-                i+=1
+        while (i <= j and j < target):
+            sum = (i + j) * (j - i + 1) / 2
+            if (sum < target):
+                j += 1
+            elif (sum > target):
+                i += 1
             else:
                 list = []
-                for k in range(i,j+1):
+                for k in range(i, j + 1):
                     list.append(k)
                 result.append(list)
-                j+=1
+                j += 1
         print(result)
         return result
-if __name__=="__main__":
+
+
+if __name__ == "__main__":
     solution = Solution()
     solution.findContinuousSequence(15)
-

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5003bcb6-595e-4cbc-891c-cf77a546083c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/300最长上升子序列02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005.py" beforeDir="false" afterPath="$PROJECT_DIR$/005.最长的回文子串.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1143.py" beforeDir="false" afterPath="$PROJECT_DIR$/1143最长公共子序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/300最长上升子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/300最长上升子序列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/322.py" beforeDir="false" afterPath="$PROJECT_DIR$/322. 零钱兑换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/518. 零钱兑换 II.py" beforeDir="false" afterPath="$PROJECT_DIR$/518. 零钱兑换 II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题57 - II.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题57 - II.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YqleMyfzygUbbC3kdl36uArrfx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.322. 零钱兑换">
+    <configuration name="300最长上升子序列02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/300最长上升子序列02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="322. 零钱兑换" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/322. 零钱兑换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.322. 零钱兑换" />
+        <item itemvalue="Python.300最长上升子序列02" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5003bcb6-595e-4cbc-891c-cf77a546083c" name="Default Changelist" comment="" />
+      <created>1583678099569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583678099569</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1379" height="270" key="GridCell.Tab.0.bottom" timestamp="1583815931126">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1583756173840" />
+    <state width="1379" height="198" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1583779812398" />
+    <state width="1379" height="270" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1583815931126" />
+    <state width="1379" height="253" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583776583572" />
+    <state width="1379" height="270" key="GridCell.Tab.0.center" timestamp="1583815931125">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1583756173839" />
+    <state width="1379" height="198" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1583779812397" />
+    <state width="1379" height="270" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1583815931125" />
+    <state width="1379" height="253" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583776583571" />
+    <state width="1379" height="270" key="GridCell.Tab.0.left" timestamp="1583815931124">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1583756173839" />
+    <state width="1379" height="198" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1583779812397" />
+    <state width="1379" height="270" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1583815931124" />
+    <state width="1379" height="253" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583776583571" />
+    <state width="1379" height="270" key="GridCell.Tab.0.right" timestamp="1583815931125">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1583756173840" />
+    <state width="1379" height="198" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1583779812398" />
+    <state width="1379" height="270" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1583815931125" />
+    <state width="1379" height="253" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583776583572" />
+    <state width="1379" height="270" key="GridCell.Tab.1.bottom" timestamp="1583815931127">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1583756175289" />
+    <state width="1379" height="45" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1583779520369" />
+    <state width="1379" height="270" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1583815931127" />
+    <state width="1379" height="253" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583776585055" />
+    <state width="1379" height="270" key="GridCell.Tab.1.center" timestamp="1583815931126">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1583756175288" />
+    <state width="1379" height="45" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1583779520367" />
+    <state width="1379" height="270" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1583815931126" />
+    <state width="1379" height="253" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1583776585054" />
+    <state width="1379" height="270" key="GridCell.Tab.1.left" timestamp="1583815931126">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1583756175288" />
+    <state width="1379" height="45" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1583779520367" />
+    <state width="1379" height="270" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1583815931126" />
+    <state width="1379" height="253" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1583776585054" />
+    <state width="1379" height="270" key="GridCell.Tab.1.right" timestamp="1583815931127">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1379" height="253" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1583756175289" />
+    <state width="1379" height="45" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1583779520368" />
+    <state width="1379" height="270" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1583815931127" />
+    <state width="1379" height="253" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1583776585055" />
+    <state x="392" y="172" width="670" height="674" key="search.everywhere.popup" timestamp="1583777533204">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="392" y="172" width="670" height="674" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1583777533204" />
+    <state x="392" y="173" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1583775303798" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/322. 零钱兑换.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="left" language="Python" />
+        <watch expression="dp[j]" language="Python" />
+        <watch expression="j - coins[i]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
