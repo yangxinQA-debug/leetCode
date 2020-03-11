@@ -72,7 +72,7 @@ class Solution(object):
                 result.append(this)
                 i += 1
                 l1 = l1.next
-        print result
+        print(result)
         return sum
 
 
