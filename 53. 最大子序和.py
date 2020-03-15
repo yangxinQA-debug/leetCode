@@ -26,9 +26,9 @@ class Solution(object):
         """
         maxSum = nums[0]
         dp = [0] * len(nums)
-        dp[0]=nums[0]
+        dp[0] = nums[0]
         for i in range(1, len(nums)):
-            dp[i] = max((dp[i - 1] + nums[i]),nums[i])
+            dp[i] = max((dp[i - 1] + nums[i]), nums[i])
             if (dp[i] > maxSum):
                 maxSum = dp[i]
         print(maxSum)
@@ -37,4 +37,4 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution()
-    solution.maxSubArray([1,2])
+    solution.maxSubArray([1, 2])
