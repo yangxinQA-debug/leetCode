@@ -19,7 +19,10 @@
 链接：https://leetcode-cn.com/problems/house-robber
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
-
+"""
+dp[i] 表示在i位置能取到的最大值
+dp[i] = max(dp[i-1],dp[i-2]+num[i])
+"""
 
 class Solution(object):
     def rob(self, nums):
@@ -27,35 +30,20 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        n = len(nums)
-        if len(nums) % 2 == 0:
-            even = True
-        else:
-            even = False
-        s1 = 0
-        s2 = 0
-        if even:
-            i1 = 0
-            i2 = 1
-            while i1 <= n - 2:
-                s1 += nums[i1]
-                i1 += 2
-            while i2 <= n - 1:
-                s2 += nums[i2]
-                i2 += 2
-        else:
-            i1 = 0
-            i2 = 1
-            while i1 <= n - 1:
-                s1 += nums[i1]
-                i1 += 2
-            while i2 <= n - 2:
-                s2 += nums[i2]
-                i2 += 2
-        print(max(s1, s2))
-        return max(s1, s2)
+        if (len(nums) == 0):
+            return 0
+        elif (len(nums) == 1):
+            return nums[0]
+        elif (len(nums) == 2):
+            return max(nums[0], nums[1])
+        dp = [0] * len(nums)
+        dp[0] = nums[0]
+        dp[1] = max(nums[0],nums[1])
+        for i in range(2, len(nums)):
+            dp[i] = max(dp[i - 1], dp[i - 2] + nums[i])
+        return dp[len(nums) - 1]
 
-if __name__ == "__main__":
-    input = [2,7,9,3,1]
+if __name__ =="__main__":
     solution = Solution()
-    solution.rob(input)
+    result = solution.rob([2,1,1,2])
+    print(result)
