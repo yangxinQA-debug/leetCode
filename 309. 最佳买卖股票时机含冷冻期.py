@@ -16,9 +16,29 @@
 链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
+
+
 class Solution(object):
     def maxProfit(self, prices):
         """
         :type prices: List[int]
         :rtype: int
         """
+        days = len(prices)
+        if days == 0:
+            return 0
+        dp_i_0 = 0
+        dp_i_1 = -100000000000000
+        dp_pre_0 = 0
+        for i in range(days):
+            temp = dp_i_0
+            dp_i_0 = max(dp_i_0, dp_i_1 + prices[i])
+            dp_i_1 = max(dp_i_1, dp_pre_0 - prices[i])
+            dp_pre_0 = temp;
+        print(dp_i_0)
+        return dp_i_0
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    solution.maxProfit([1, 2, 3, 0, 2])
