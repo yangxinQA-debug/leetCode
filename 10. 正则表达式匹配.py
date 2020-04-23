@@ -1,3 +1,4 @@
+# -*-coding:utf-8
 """
 给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。
 
@@ -21,6 +22,8 @@ p = "a"
 链接：https://leetcode-cn.com/problems/regular-expression-matching
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
+
+
 class Solution(object):
     def isMatch(self, s, p):
         """
@@ -28,3 +31,33 @@ class Solution(object):
         :type p: str
         :rtype: bool
         """
+        i = 0
+        j = 0
+        while i < len(p) and j < len(s):
+            if (p[i] == s[j] and i < len(p) - 1 and p[i + 1] != '*') or (p[i] == s[j] and i == len(p) - 1):
+                i += 1
+                j += 1
+            elif p[i] == '.':
+                i += 1
+                j += 1
+            elif i < len(p) - 1 and p[i + 1] == '*' and p[i] != s[j]:
+                i += 2
+            elif i < len(p) - 1 and p[i + 1] == '*' and p[i] == s[j]:
+                i += 2
+                j += 1
+            elif p[i] != p[j]:
+                print(False)
+                return False
+        if i == len(p) and j == len(s):
+            print(True)
+            return True
+        else:
+            print(False)
+            return False
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    s = "aa"
+    p = "a*"
+    solution.isMatch(s, p)
