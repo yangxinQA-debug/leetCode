@@ -8,6 +8,8 @@
 问总共有多少条不同的路径？
 """
 import numpy
+
+
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -15,21 +17,22 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if(m==0 or n==0):
+        if (m == 0 or n == 0):
             return 0
-        dp = numpy.zeros([m,n], dtype=numpy.int32)
-        #初始化
-        for i in range(0,m):
-            dp[i][0] =1
-        for j in range(0,n):
-            dp[0][j] =1
-        for i in range(1,m):
-            for j in range(1,n):
-                dp[i][j] = dp[i-1][j]+dp[i][j-1]
+        dp = numpy.zeros([m, n], dtype=numpy.int32)
+        # 初始化
+        for i in range(0, m):
+            dp[i][0] = 1
+        for j in range(0, n):
+            dp[0][j] = 1
+        for i in range(1, m):
+            for j in range(1, n):
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
 
-        print( dp[m-1][n-1])
-        return int(dp[m-1][n-1])
+        print(dp[m - 1][n - 1])
+        return int(dp[m - 1][n - 1])
 
-if __name__ =="__main__":
+
+if __name__ == "__main__":
     solution = Solution()
-    solution.uniquePaths( m = 7, n = 3)
+    solution.uniquePaths(m=7, n=3)
