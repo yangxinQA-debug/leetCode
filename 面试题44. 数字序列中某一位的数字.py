@@ -1,4 +1,4 @@
-#-*- coding:utf-8
+# -*- coding:utf-8
 """
 数字以0123456789101112131415…的格式序列化到一个字符序列中。在这个序列中，第5位（从下标0开始计数）是5，第13位是1，第19位是4，等等。
 
@@ -19,9 +19,25 @@
 链接：https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 """
+
+
 class Solution(object):
     def findNthDigit(self, n):
         """
         :type n: int
         :rtype: int
         """
+        digit = 1
+        start = 1
+        count = 9 * digit * start
+        while n > count:
+            n -= count
+            start *= 10
+            digit += 1
+            count = 9 * digit * start
+        num = start + (n - 1) // digit
+        return int(str(num)[(n - 1) % digit])
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.findNthDigit(16))
