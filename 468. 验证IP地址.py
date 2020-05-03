@@ -49,42 +49,19 @@ class Solution(object):
         :type IP: str
         :rtype: str
         """
-        if self.judgeIpV4(IP):
-            return "IPv4"
-        if self.judgeIpV6(IP):
-            return "IPv6"
-        else:
-            return "Neither"
-
-    def judgeIpV4(self, IP):
-        if IP.find(".") != -1:
-            ips = IP.split(".")
-            for ip in ips:
-                # if ip == "":
-                #     return False
-                if int(ip) > 255 or int(ip) < 0:
-                    return False
-                if int(ip) and ip[0] == '0':
-                    return False
-            return True
-        else:
-            return False
-
-    def judgeIpV6(self, IP):
+        str_V4 = r'([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])'
+        str_V6 = r'([0-9a-fA-F]{1,4})'
+        pattern_V4 = re.compile(r'^(' + str_V4 + r'\.){3}' + str_V4 + r'$')
+        pattern_V6 = re.compile(r'^(' + str_V6 + r'\:){7}' + str_V6 + r'$')
+        # print(pattern_V4)
+        # print(pattern_V6)
         if IP.find(":") != -1:
-            ips = IP.split(":")
-            for ip in ips:
-                if re.match('[0-9a-fA-F]'):
-                    return False
-                if ip == "":
-                    return False
-                if ip.contains("00") or ip.contains("000") or ip.contains("0000"):
-                    return False
-            return True
-        else:
-            return False
+            return 'IPv6' if pattern_V6.match(IP) else "Neither"
+        if IP.find(".") != -1:
+            return 'IPv4' if pattern_V4.match(IP) else "Neither"
+        return "Neither"
 
 
 if __name__ == "__main__":
     solution = Solution()
-    print(solution.validIPAddress(IP="2001:0db8:85a3:0:0:8A2E:0370:7334"))
+    print(solution.validIPAddress(IP="256.256.256.256"))
