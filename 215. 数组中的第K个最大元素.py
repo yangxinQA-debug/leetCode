@@ -34,6 +34,7 @@ class Solution(object):
                 index = self.partition(nums, l, index - 1)
             else:
                 return nums[index]
+        return nums[index]
 
     def partition(self, nums, l, h):
         tmp = nums[l]
