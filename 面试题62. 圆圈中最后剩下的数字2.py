@@ -32,7 +32,14 @@ class Solution(object):
         :type m: int
         :rtype: int
         """
-        ans = 0
-        for i in range(2, n+1):
-            ans = (ans + m) % i
-        return ans
+        ls = [i for i in range(n)]
+        i = 0
+        while len(ls) > 1:
+            i = (i + m - 1) % len(ls)
+            ls.pop(i)
+        return ls[0]
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.lastRemaining(6, 2))
