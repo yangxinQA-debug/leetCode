@@ -18,9 +18,27 @@ n 不超过1690。
 题解：
 https://www.bilibili.com/video/BV1T7411t7Dm?from=search&seid=12906184319454580644
 """
+
+
 class Solution(object):
     def nthUglyNumber(self, n):
         """
         :type n: int
         :rtype: int
         """
+        dp = [1]
+        p2 = p3 = p5 = 0
+        for i in range(0, n):
+            dpi = min(dp[p2] * 2, dp[p3] * 3, dp[p5] * 5)
+            dp.append(dpi)
+            while dp[p2] * 2 <= dpi:
+                p2 += 1
+            while dp[p3] * 3 <= dpi:
+                p3 += 1
+            while dp[p5] * 5 <= dpi:
+                p5 += 1
+        return dp[n-1]
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.nthUglyNumber(10))
