@@ -45,15 +45,17 @@ class Solution(object):
         :param k:
         :return:
         """
-        if i >= m or j >= n or self.edge(i) + self.edge(j) > k or (i, j) in self.visited:
+        if i >= m or j >= n or i < 0 or j < 0 or self.edge(i) + self.edge(j) > k or (i, j) in self.visited:
             return 0
         self.visited.add((i, j))
         b = self.dfs(i + 1, j, m, n, k)
         r = self.dfs(i, j + 1, m, n, k)
-        return 1 + b + r
+        l = self.dfs(i, j - 1, m, n, k)
+        t = self.dfs(i - 1, j, m, n, k)
+        return 1 + b + r + l + t
 
 
 if __name__ == "__main__":
     solution = Solution()
-    result = solution.movingCount(m=3, n=2, k=17)
+    result = solution.movingCount(m=1, n=2, k=1)
     print(result)

@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5003bcb6-595e-4cbc-891c-cf77a546083c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/面试题06. 从尾到头打印链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题15. 二进制中1的个数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题17. 打印从1到最大的n位数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题25. 合并两个排序的链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题30. 包含min函数的栈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题39. 数组中出现次数超过一半的数字.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题54. 二叉搜索树的第k大节点.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题58 - II. 左旋转字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题61. 扑克牌中的顺子.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/46. 全排列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47. 全排列 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题60. n个骰子的点数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题60. n个骰子的点数2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题64. 求1+2+…+n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/面试题67. 把字符串转换成整数.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/面试题49. 丑数.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题49. 丑数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/64. 最小路径和.py" beforeDir="false" afterPath="$PROJECT_DIR$/64. 最小路径和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/面试题13. 机器人的运动范围.py" beforeDir="false" afterPath="$PROJECT_DIR$/面试题13. 机器人的运动范围.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +45,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.面试题15. 二进制中1的个数">
-    <configuration name="面试题15. 二进制中1的个数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.47. 全排列 II">
+    <configuration name="46. 全排列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题15. 二进制中1的个数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/46. 全排列.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="面试题17. 打印从1到最大的n位数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="47. 全排列 II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题17. 打印从1到最大的n位数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/47. 全排列 II.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="面试题30. 包含min函数的栈" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="面试题60. n个骰子的点数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题30. 包含min函数的栈.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题60. n个骰子的点数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="面试题39. 数组中出现次数超过一半的数字" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="面试题60. n个骰子的点数2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题39. 数组中出现次数超过一半的数字.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题60. n个骰子的点数2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="面试题61. 扑克牌中的顺子" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="面试题67. 把字符串转换成整数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题61. 扑克牌中的顺子.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/面试题67. 把字符串转换成整数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.面试题15. 二进制中1的个数" />
-        <item itemvalue="Python.面试题17. 打印从1到最大的n位数" />
-        <item itemvalue="Python.面试题30. 包含min函数的栈" />
-        <item itemvalue="Python.面试题61. 扑克牌中的顺子" />
-        <item itemvalue="Python.面试题39. 数组中出现次数超过一半的数字" />
+        <item itemvalue="Python.47. 全排列 II" />
+        <item itemvalue="Python.46. 全排列" />
+        <item itemvalue="Python.面试题67. 把字符串转换成整数" />
+        <item itemvalue="Python.面试题60. n个骰子的点数2" />
+        <item itemvalue="Python.面试题60. n个骰子的点数" />
       </list>
     </recent_temporary>
   </component>
@@ -189,18 +187,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="716" height="466" key="DebuggerActiveHint" timestamp="1590046834995">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="716" height="463" key="DebuggerActiveHint" timestamp="1590839785691">
+      <screen x="0" y="23" width="1440" height="822" />
     </state>
+    <state width="716" height="463" key="DebuggerActiveHint/0.23.1440.822@0.23.1440.822" timestamp="1590839785691" />
     <state width="703" height="465" key="DebuggerActiveHint/0.23.1440.828@0.23.1440.828" timestamp="1587724906307" />
     <state width="716" height="466" key="DebuggerActiveHint/0.23.1440.829@0.23.1440.829" timestamp="1590046834995" />
     <state width="687" height="466" key="DebuggerActiveHint/0.23.1440.830@0.23.1440.830" timestamp="1588083563948" />
-    <state width="873" height="154" key="GridCell.Tab.0.bottom" timestamp="1590666719978">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.0.bottom" timestamp="1591086055940">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="880" height="159" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1590651007417" />
-    <state width="873" height="154" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1590666719978" />
-    <state width="1091" height="225" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1590665250632" />
+    <state width="1052" height="252" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1591011299822" />
+    <state width="1049" height="252" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1591086055940" />
+    <state width="1239" height="121" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1591005814655" />
+    <state width="867" height="122" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1590852488396" />
+    <state width="1086" height="264" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1590818604848" />
     <state width="887" height="161" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1590485951274" />
     <state width="1109" height="229" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1590560053698" />
     <state width="898" height="163" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1590153115452" />
@@ -211,12 +212,14 @@
     <state width="1007" height="293" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1589360576958" />
     <state width="1190" height="147" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1589887208532" />
     <state width="1190" height="281" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1589880889435" />
-    <state width="873" height="154" key="GridCell.Tab.0.center" timestamp="1590666719977">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.0.center" timestamp="1591086055939">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="880" height="159" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1590651007416" />
-    <state width="873" height="154" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1590666719977" />
-    <state width="1091" height="225" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1590665250632" />
+    <state width="1052" height="252" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1591011299821" />
+    <state width="1049" height="252" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1591086055939" />
+    <state width="1239" height="121" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1591005814654" />
+    <state width="867" height="122" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1590852488395" />
+    <state width="1086" height="264" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1590818604847" />
     <state width="887" height="161" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1590485951273" />
     <state width="1109" height="229" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1590560053697" />
     <state width="898" height="163" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1590153115452" />
@@ -227,12 +230,14 @@
     <state width="1007" height="293" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1589360576958" />
     <state width="1190" height="147" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1589887208531" />
     <state width="1190" height="281" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1589880889433" />
-    <state width="873" height="154" key="GridCell.Tab.0.left" timestamp="1590666719976">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.0.left" timestamp="1591086055939">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="880" height="159" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1590651007416" />
-    <state width="873" height="154" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1590666719976" />
-    <state width="1091" height="225" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1590665250631" />
+    <state width="1052" height="252" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1591011299820" />
+    <state width="1049" height="252" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1591086055939" />
+    <state width="1239" height="121" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1591005814654" />
+    <state width="867" height="122" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1590852488395" />
+    <state width="1086" height="264" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1590818604846" />
     <state width="887" height="161" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1590485951273" />
     <state width="1109" height="229" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1590560053697" />
     <state width="898" height="163" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1590153115451" />
@@ -243,12 +248,14 @@
     <state width="1007" height="293" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1589360576957" />
     <state width="1190" height="147" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1589887208531" />
     <state width="1190" height="281" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1589880889431" />
-    <state width="873" height="154" key="GridCell.Tab.0.right" timestamp="1590666719977">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.0.right" timestamp="1591086055940">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="880" height="159" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1590651007417" />
-    <state width="873" height="154" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1590666719977" />
-    <state width="1091" height="225" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1590665250632" />
+    <state width="1052" height="252" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1591011299821" />
+    <state width="1049" height="252" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1591086055940" />
+    <state width="1239" height="121" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1591005814655" />
+    <state width="867" height="122" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1590852488396" />
+    <state width="1086" height="264" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1590818604847" />
     <state width="887" height="161" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1590485951274" />
     <state width="1109" height="229" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1590560053698" />
     <state width="898" height="163" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1590153115452" />
@@ -259,12 +266,14 @@
     <state width="1007" height="293" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1589360576958" />
     <state width="1190" height="147" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1589887208531" />
     <state width="1190" height="281" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1589880889434" />
-    <state width="1088" height="224" key="GridCell.Tab.1.bottom" timestamp="1590666670817">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.1.bottom" timestamp="1591086055942">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="1106" height="226" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1590650832721" />
-    <state width="1088" height="224" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1590666670817" />
-    <state width="1091" height="225" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1590665250634" />
+    <state width="1052" height="252" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1591011299824" />
+    <state width="1049" height="252" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1591086055942" />
+    <state width="1056" height="252" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1591005814647" />
+    <state width="1080" height="262" key="GridCell.Tab.1.bottom/0.23.1440.822@0.23.1440.822" timestamp="1590839852944" />
+    <state width="1086" height="264" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1590818605629" />
     <state width="1121" height="232" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1590478400850" />
     <state width="1109" height="229" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1590560053699" />
     <state width="1154" height="295" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1590153115445" />
@@ -275,12 +284,14 @@
     <state width="1007" height="293" key="GridCell.Tab.1.bottom/0.23.1440.832@0.23.1440.832" timestamp="1589360576960" />
     <state width="1190" height="147" key="GridCell.Tab.1.bottom/0.23.1440.833@0.23.1440.833" timestamp="1589887208534" />
     <state width="1190" height="281" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1589880890983" />
-    <state width="1088" height="224" key="GridCell.Tab.1.center" timestamp="1590666670816">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.1.center" timestamp="1591086055941">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="1106" height="226" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1590650832721" />
-    <state width="1088" height="224" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1590666670816" />
-    <state width="1091" height="225" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1590665250633" />
+    <state width="1052" height="252" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1591011299823" />
+    <state width="1049" height="252" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1591086055941" />
+    <state width="1056" height="252" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1591005814647" />
+    <state width="1080" height="262" key="GridCell.Tab.1.center/0.23.1440.822@0.23.1440.822" timestamp="1590839852943" />
+    <state width="1086" height="264" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1590818605627" />
     <state width="1121" height="232" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1590478400848" />
     <state width="1109" height="229" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1590560053699" />
     <state width="1154" height="295" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1590153115445" />
@@ -291,12 +302,14 @@
     <state width="1007" height="293" key="GridCell.Tab.1.center/0.23.1440.832@0.23.1440.832" timestamp="1589360576959" />
     <state width="1190" height="147" key="GridCell.Tab.1.center/0.23.1440.833@0.23.1440.833" timestamp="1589887208533" />
     <state width="1190" height="281" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1589880890981" />
-    <state width="1088" height="224" key="GridCell.Tab.1.left" timestamp="1590666670816">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.1.left" timestamp="1591086055941">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="1106" height="226" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1590650832720" />
-    <state width="1088" height="224" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1590666670816" />
-    <state width="1091" height="225" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1590665250633" />
+    <state width="1052" height="252" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1591011299822" />
+    <state width="1049" height="252" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1591086055941" />
+    <state width="1056" height="252" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1591005814647" />
+    <state width="1080" height="262" key="GridCell.Tab.1.left/0.23.1440.822@0.23.1440.822" timestamp="1590839852942" />
+    <state width="1086" height="264" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1590818605625" />
     <state width="1121" height="232" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1590478400848" />
     <state width="1109" height="229" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1590560053699" />
     <state width="1154" height="295" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1590153115444" />
@@ -307,12 +320,14 @@
     <state width="1007" height="293" key="GridCell.Tab.1.left/0.23.1440.832@0.23.1440.832" timestamp="1589360576959" />
     <state width="1190" height="147" key="GridCell.Tab.1.left/0.23.1440.833@0.23.1440.833" timestamp="1589887208532" />
     <state width="1190" height="281" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1589880890980" />
-    <state width="1088" height="224" key="GridCell.Tab.1.right" timestamp="1590666670817">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state width="1049" height="252" key="GridCell.Tab.1.right" timestamp="1591086055942">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="1106" height="226" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1590650832721" />
-    <state width="1088" height="224" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1590666670817" />
-    <state width="1091" height="225" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1590665250633" />
+    <state width="1052" height="252" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1591011299823" />
+    <state width="1049" height="252" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1591086055941" />
+    <state width="1056" height="252" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1591005814647" />
+    <state width="1080" height="262" key="GridCell.Tab.1.right/0.23.1440.822@0.23.1440.822" timestamp="1590839852943" />
+    <state width="1086" height="264" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1590818605628" />
     <state width="1121" height="232" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1590478400849" />
     <state width="1109" height="229" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1590560053699" />
     <state width="1154" height="295" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1590153115445" />
@@ -327,9 +342,11 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="700" height="390" key="XDebugger.FullValuePopup/0.23.1440.829@0.23.1440.829" timestamp="1583857394845" />
-    <state x="399" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1590647475699">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="399" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1591007894978">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
+    <state x="399" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1590981178953" />
+    <state x="399" y="253" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1591007894978" />
     <state x="399" y="253" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1590647475699" />
     <state x="399" y="253" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1590214172768" />
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1589944499567" />
@@ -404,7 +421,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/64. 最小路径和.py</url>
-          <line>39</line>
+          <line>38</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -754,7 +771,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/面试题13. 机器人的运动范围.py</url>
-          <line>57</line>
+          <line>59</line>
           <option name="timeStamp" value="287" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1033,6 +1050,66 @@
           <line>44</line>
           <option name="timeStamp" value="387" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题13. 机器人的运动范围.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题13. 机器人的运动范围.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题13. 机器人的运动范围.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题60. n个骰子的点数.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题60. n个骰子的点数2.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题60. n个骰子的点数2.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/面试题67. 把字符串转换成整数.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/46. 全排列.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/46. 全排列.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/47. 全排列 II.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/47. 全排列 II.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/47. 全排列 II.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -1044,8 +1121,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="res[tmp]" language="Python" />
-        <watch expression="res[i]" language="Python" />
+        <watch expression="self.res" language="Python" />
+        <watch expression="str[i]" />
       </configuration>
     </watches-manager>
   </component>
