@@ -31,6 +31,7 @@ class Solution(object):
         for i in range(0, n):
             dpi = min(dp[p2] * 2, dp[p3] * 3, dp[p5] * 5)
             dp.append(dpi)
+            ## 2，3，5 指针指向的数字，需在dp数组中。遍历dp数组，找到第一个大于刚刚添加的数字的值。
             while dp[p2] * 2 <= dpi:
                 p2 += 1
             while dp[p3] * 3 <= dpi:
